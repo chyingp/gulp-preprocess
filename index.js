@@ -7,7 +7,7 @@ var through = require('through2');
 var pp = require('preprocess');
 
 // Consts
-const PLUGIN_NAME = 'gulp-preprocess';
+var PLUGIN_NAME = 'gulp-preprocess';
 
 module.exports = function (options) {
 	return through.obj(function (file, enc, cb) {
